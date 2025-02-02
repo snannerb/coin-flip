@@ -6,7 +6,7 @@ Here is the fully functioning code for the Fortune Teller app, including all the
 
 ### **File Structure**
 ```
-fortune-teller-app/
+Yes-No-app/
 │
 ├── index.html
 ├── styles.css
@@ -27,9 +27,9 @@ fortune-teller-app/
 </head>
 <body>
   <div class="container">
-    <h1>Fortune Teller</h1>
+    <h1>Yes No</h1>
     <div id="response" class="response" aria-live="polite">Your answer will appear here.</div>
-    <button id="askButton" class="ask-button" aria-label="Ask Fortune Teller">Ask Fortune Teller</button>
+    <button id="askButton" class="ask-button" aria-label="Ask Question?">Ask Question?</button>
   </div>
   <script src="script.js" defer></script>
 </body>
@@ -130,7 +130,7 @@ askButton.addEventListener('keydown', (event) => {
 
 ### **How to Run the Application**
 1. **Create the Folder Structure**:
-   - Create a folder named `fortune-teller-app`.
+   - Create a folder named `Yes-No-app`.
    - Inside this folder, create three files: `index.html`, `styles.css`, and `script.js`.
 
 2. **Copy the Code**:
@@ -142,14 +142,14 @@ askButton.addEventListener('keydown', (event) => {
    - Open the `index.html` file in your browser by double-clicking it or dragging it into a browser window.
 
 4. **Test the Application**:
-   - Click the "Ask Fortune Teller" button or use the keyboard (Tab to focus and press Enter/Space) to trigger the button.
+   - Click the "Ask Question?" button or use the keyboard (Tab to focus and press Enter/Space) to trigger the button.
    - Verify that the response area displays either "Yes" or "No" randomly.
 
 ---
 
 ### **Deployment**
 To deploy the app:
-1. Upload the `fortune-teller-app` folder to a web server (e.g., Netlify, GitHub Pages, or AWS).
+1. Upload the `Yes-No-app` folder to a web server (e.g., Netlify, GitHub Pages, or AWS).
 2. Ensure the files (`index.html`, `styles.css`, `script.js`) are accessible via the server.
 
 ---
